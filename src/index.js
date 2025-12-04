@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Navbar from "./components/navbar";
+import Navbar from "./components/navbar/navbar";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

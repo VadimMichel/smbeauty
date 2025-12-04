@@ -1,0 +1,28 @@
+nav{
+    width: 100%;
+    background: #262525;
+    padding: 0 min(64px, 5vw);
+    height: 100px;
+    >div{
+        width: min(1440px, 100%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >img{
+            width: 100px;
+            height: 100px;
+        }
+        >ul{
+            display: flex;
+            gap: 20px;
+        }
+
+    }
+}
+
+a{
+    color: white;
+    &:hover{
+        color: #F5E6A8;
+    }
+}
